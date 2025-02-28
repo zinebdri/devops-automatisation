@@ -19,7 +19,7 @@ public class DevopsIntegrationApplication {
         return "<html>" +
                 "<head><title>DevOps Pipeline</title></head>" +
                 "<body style='background-color: #282c34; color: white; text-align: center; padding: 50px;'>" +
-                "<h1>Bienvenue dans le pipeline DevOps, " + name + " 🚀</h1>" +
+                "<h1>Bienvenue dans les pipeline DevOps, " + name + " 🚀</h1>" +
                 "</body>" +
                 "</html>";
     }
