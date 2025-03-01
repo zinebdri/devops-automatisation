@@ -18,8 +18,8 @@ public class DevopsIntegrationApplication {
     public String home(@RequestParam(defaultValue = "Zineb") String name) {
         return "<html>" +
                 "<head><title>DevOps Pipeline</title></head>" +
-                "<body style='background-color: #282c34; color: white; text-align: center; padding: 50px;'>" +
-                "<h1>Bienvenue dans les pipelines DevOps, " + name + " avant modification, regardez la couleur noire 🚀</h1>" +
+                "<body style='background-color: #282c34; color: blue; text-align: center; padding: 50px;'>" +
+                "<h1>Bienvenue dans les pipelines DevOps, " + name + "apres modification, regardez la couleur maintenant blue🚀</h1>" +
                 "</body>" +
                 "</html>";
     }
