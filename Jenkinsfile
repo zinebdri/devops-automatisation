@@ -16,7 +16,7 @@ pipeline {
                     branches: [[name: '*/main']], 
                     extensions: [[$class: 'WipeWorkspace']], 
                     userRemoteConfigs: [[
-                        url: 'https://github.com/Java-Techie-jt/devops-automation.git'
+                        url: 'https://github.com/zinebdri/devops-automatisation.git'
                     ]]
                 ])
             }
